@@ -1,3 +1,4 @@
 class EntrySerializer < ActiveModel::Serializer
-  attributes :id, :date, :time_start, :time_end, :length_of_practice, :name_of_practice, :notes
+  attributes :id, :date, :length_of_practice, :name_of_practice, :notes
+  belongs_to :user
 end
