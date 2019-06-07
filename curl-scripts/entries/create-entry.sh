@@ -9,8 +9,8 @@ curl "http://localhost:4741/entries" \
       "date": "'"${DATE}"'",
       "length_of_practice": "'"${LENGTH}"'",
       "name_of_practice": "'"${PRACTICE}"'",
-      "notes": "'"${NOTES}"'"
-      "user_id:" "'"${USER}"'"
+      "notes": "'"${NOTES}"'",
+      "user_id": "'"${USER}"'"
     }
   }'
 
