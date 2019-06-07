@@ -1,4 +1,4 @@
-class EntriesController < ApplicationController
+class EntriesController < ProtectedController
   before_action :set_entry, only: [:show, :update, :destroy]
 
   # GET /entries
@@ -35,6 +35,7 @@ class EntriesController < ApplicationController
 
   # DELETE /entries/1
   def destroy
+    @entry = Entry.find(params[:id])
     @entry.destroy
   end
 

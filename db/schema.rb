@@ -17,8 +17,6 @@ ActiveRecord::Schema.define(version: 2019_06_07_172411) do
 
   create_table "entries", force: :cascade do |t|
     t.date "date"
-    t.time "time_start"
-    t.time "time_end"
     t.integer "length_of_practice"
     t.string "name_of_practice"
     t.text "notes"
