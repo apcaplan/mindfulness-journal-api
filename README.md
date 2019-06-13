@@ -4,6 +4,8 @@ The app is designed to provide an easy way for people to journal their experienc
 
 This backend includes a PostgresSQL database with Rails server and API, written primarily in Ruby on Rails.
 
+The front end for this app can be found here: https://github.com/apcaplan/mindfulness-journal-client.
+
 Link to initial wireframe: https://imgur.com/ksaIkyC
 
 Link to ERD: https://imgur.com/wfHx1d7
@@ -13,6 +15,6 @@ User stories:
 - As a meditator, I want to be able to enter notes about each of my meditation sessions.
 - As a meditator, I want to be able to review past sessions
 
-The User table was provided by General Assembly. I created an Entry table, for all the basic information users will want to store (date, amount of time, type of practice, and notes). I scaffolded these resources, tested end points with curl scripts, updated resource controllers with inheritance, and added relationship between tables. 
+The User table was provided by General Assembly. I created an Entry table, for all the basic information users will want to store. I scaffolded these resources, tested end points with curl scripts, updated resource controllers with inheritance, and added relationships between tables.
 
 In the future, this backend will expand to allow for increased functionality - such as tracking location and time of day, and options for select Users to comment on entries of other users.
