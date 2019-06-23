@@ -5,7 +5,7 @@ class EntriesController < ProtectedController
 
   # GET /entries
   def index
-    @entries = current_user.entries.all
+    @entries = current_user.entries
 
     render json: @entries
   end
